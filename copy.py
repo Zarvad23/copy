@@ -11,6 +11,7 @@ save_g = r'C:\Users\Student\Documents\My Games\FasterThanLight\continue.sav'#П�
 save_s = r'C:\Users\Student\Documents\My Games\Save\continue.sav'#Путь до сохранения игры в папке Save
 
 while True:
+	time.sleep(1)
 	if keyboard.is_pressed('c'):
 		os.system("TASKKILL /F /IM FTLGame.exe")
 		time.sleep(2)
